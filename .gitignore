@@ -7,3 +7,6 @@ desktop.ini
 *.bak
 .vscode/
 .idea/
+
+# Unrelated World of Darkness scratch files (kept on disk, out of this repo)
+WoD-*.pdf
