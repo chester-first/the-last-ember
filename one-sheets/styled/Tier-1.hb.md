@@ -13,7 +13,7 @@ The party are nobodies in a fog-bound borderland where the dead have begun walki
 
 {{note
 ##### The Flow
-**Lantern's Rest** → 3 Moor leads → **Marrowmoor Vault** (R1–R9) → **Herald** boss → **Goldwyrm** sighting → *molt*
+**Lantern's Rest** leads through three Moor leads into the **Marrowmoor Vault** (R1–R9), to the **Herald** boss and the **Goldwyrm** sighting, then the molt.
 }}
 
 ## Encounters

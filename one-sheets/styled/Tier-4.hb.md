@@ -13,7 +13,7 @@ The party climb into a hollow heaven built room by room around a single failing 
 
 {{note
 ##### The Flow
-**The Ascent / Hollow Heaven** → **Choir of the Hoarded** → *the Two Endings of Death (thesis)* → **the Becoming God** → **chosen ending**
+The **Ascent** through the **Hollow Heaven** leads to the **Choir of the Hoarded**, the *Two Endings of Death* (the thesis scene), **the Becoming God**, and the **chosen ending**.
 }}
 
 ## Encounters

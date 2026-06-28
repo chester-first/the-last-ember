@@ -13,7 +13,7 @@ The party cross into the Feywild to find the wellspring of light itself going th
 
 {{note
 ##### The Flow
-**Glimmermarch** (hub) → **Graying Glades** → **Court Vote + the Bargain** → **Dragon-Wraith hunt** → **Pyre's Heart** boss → *molt to dracolich*
+**Glimmermarch** leads through the **Graying Glades** to the **Court Vote and the Bargain**, then the **Dragon-Wraith hunt** and the **Pyre's Heart** boss, then the molt to a dracolich.
 }}
 
 ## Encounters

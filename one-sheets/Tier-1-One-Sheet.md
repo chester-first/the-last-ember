@@ -39,7 +39,7 @@ Every undead is a stolen soul. **Return** (action + DC 10) sends it home and slo
 Aim for awe, not a TPK. If attacked, he restrains and leaves.
 
 ## Loot
-- Cinder Vial (consumable, rechargeable)
+- Cinder Vial — consumable, ⟲ Return (returns hoarded souls, one use)
 - Warden's Gray Cloak
 - Lanternlight Censer
 - Herald's Scale-Shard (plot proof for Tier II)

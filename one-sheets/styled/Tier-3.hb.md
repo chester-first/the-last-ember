@@ -13,7 +13,7 @@ The dead don't want saving. Ossuara is a city at dusk, pleasant and full, and it
 
 {{note
 ##### The Flow
-**Ossuara (city)** → **the Grateful Dead** → **Death-Court** (recruit Kalaurith) → **Sera's reckoning** → **Siege of the Pale Hoard** → **Throne-Vault** boss → *molt to the Source*
+**Ossuara** opens onto **the Grateful Dead**, the **Death-Court** (where you can recruit Kalaurith), **Sera's reckoning**, the **Siege of the Pale Hoard**, and the **Throne-Vault** boss, then the molt to the Source.
 }}
 
 ## Encounters

@@ -39,9 +39,9 @@ Souls the party "returned" earlier are HERE and **angry** — including the Mour
 > *"You brace for a charnel pit. You get a city at dusk… 'No one dies here. No one leaves here. He keeps us all.' She says it like a blessing. She believes it is one."*
 
 ## Loot
-- Ossix's Pale Blade
+- Ossix's Pale Blade (a hoarder's weapon)
 - Kalaurith's Scale (if allied)
-- 3× Soul-Pyre Cores
+- 3× Soul-Pyre Cores (◈ Hoard)
 - Chancellor's Seal
 
 ## End of tier

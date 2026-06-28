@@ -40,9 +40,9 @@ Vol offers each PC ONE: **+1 ability (max 20)**, an early Burning power, or **40
 **Pip Emberkin** (pixie guide) dies buying the party time, or a PC eats a lasting max-HP cut. Make it land.
 
 ## Loot
-- Cinderheart (rechargeable)
+- Cinderheart — ⟲ Return (1/long rest)
 - Glimmer-seed (Clock reprieve)
-- **Mantle of First Light** (Keeper) or **Hoardlight Locket** (Tallymaster)
+- **Mantle of First Light** (Keeper reward) or **Hoardlight Locket** (◈ Hoard, Tallymaster reward)
 - 2nd Scale-Shard
 
 ## End of tier
