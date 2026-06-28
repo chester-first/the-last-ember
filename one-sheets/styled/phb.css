@@ -1,0 +1,158 @@
+/* =================================================================
+   THE LAST EMBER — "Old Tome" one-sheet theme
+   Classic D&D 5e book styling, modeled on the Homebrewery PHB look.
+   Self-contained: no external fonts or images (reads fully offline).
+   ================================================================= */
+
+:root{
+  --ink:#2a1a0e;            /* body text — dark brown, not black */
+  --rust:#58180d;           /* headings & accents (PHB red-brown) */
+  --rust-soft:#7a200d;      /* stat-block red */
+  --gold:#c0ad6a;           /* tapered rules / borders */
+  --gold-deep:#a0884a;
+  --parch:#eee5ce;          /* parchment base */
+  --parch-hi:#f6efdd;       /* lighter parchment highlight */
+  --parch-lo:#e4d8b8;       /* parchment shadow */
+  --stat-bg:#fdf3e0;        /* monster stat-block cream */
+  --note-bg:#e6e4c8;        /* note box (sage parchment) */
+  --table-stripe:#e0e5c1;   /* table zebra (greenish cream) */
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Times New Roman",serif;
+  --sans:"Helvetica Neue",Arial,"Segoe UI",sans-serif;
+}
+
+*{box-sizing:border-box}
+html{background:#3b352c;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;padding:28px 14px;font-family:var(--serif);color:var(--ink);line-height:1.42}
+
+/* ---- The page (a sheet of parchment) ---- */
+.page{
+  position:relative;max-width:820px;margin:0 auto 28px;padding:48px 46px 40px;
+  background:
+    radial-gradient(120% 80% at 50% 0%, var(--parch-hi), transparent 60%),
+    radial-gradient(140% 90% at 100% 100%, var(--parch-lo), transparent 55%),
+    radial-gradient(140% 90% at 0% 100%, var(--parch-lo), transparent 55%),
+    var(--parch);
+  box-shadow:0 0 0 1px rgba(0,0,0,.25), 0 14px 40px rgba(0,0,0,.5);
+  border-radius:2px;
+}
+/* worn edge vignette */
+.page::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:2px;
+  box-shadow:inset 0 0 60px rgba(120,90,40,.25), inset 0 0 8px rgba(80,50,20,.3)}
+
+/* ---- Sheet header ---- */
+.sheet-head{text-align:center;margin-bottom:18px}
+.eyebrow{font-family:var(--sans);font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+.sheet-head h1{margin:.12em 0 .05em}
+.subtitle{font-style:italic;color:var(--rust);font-size:1.02rem}
+.tagline{font-style:italic;color:var(--ink);opacity:.8;margin-top:2px}
+
+/* ---- Headings ---- */
+h1,h2,h3,h4,h5{font-family:var(--serif);color:var(--rust);font-weight:700;line-height:1.1;margin:.7em 0 .3em}
+h1{font-size:2.05rem;font-variant:small-caps;letter-spacing:.5px}
+h2{font-size:1.5rem;font-variant:small-caps;letter-spacing:.5px;margin-top:1em;
+  border-bottom:3px solid var(--gold);
+  /* tapered rule: triangle that thins to the right */
+  border-image:linear-gradient(90deg,var(--gold) 0%,var(--gold) 55%,rgba(192,173,106,0) 100%) 1;
+  padding-bottom:2px;break-after:avoid}
+h3{font-size:1.18rem;border-bottom:1px solid var(--gold);padding-bottom:1px;break-after:avoid}
+h4,h5{font-size:1rem}
+h5{font-family:var(--sans);text-transform:uppercase;letter-spacing:1.5px;font-size:.78rem;color:var(--rust-soft)}
+
+p{margin:0 0 .55em}
+em{color:inherit}
+strong{color:var(--rust-soft)}
+a{color:var(--rust);text-decoration:underline}
+
+/* ---- Drop cap on the lead paragraph ---- */
+p.lead::first-letter{
+  float:left;font-family:var(--serif);font-weight:700;color:var(--rust);
+  font-size:4.6rem;line-height:.66;padding:6px 8px 0 0;
+}
+p.lead{font-size:1.04rem}
+
+/* ---- Two-column flow ---- */
+.columns{column-count:2;column-gap:30px}
+.columns > *{break-inside:avoid}
+.full{column-span:all}
+@media(max-width:680px){.columns{column-count:1}}
+
+/* ---- Lists ---- */
+ol,ul{margin:.2em 0 .7em;padding-left:1.3em}
+li{margin:.18em 0}
+ol.must{counter-reset:m;list-style:none;padding-left:0}
+ol.must li{counter-increment:m;position:relative;padding:.15em 0 .25em 2em;margin:.1em 0}
+ol.must li::before{content:counter(m);position:absolute;left:0;top:.05em;width:1.4em;height:1.4em;
+  background:var(--rust);color:var(--parch-hi);font-family:var(--sans);font-weight:700;font-size:.85em;
+  border-radius:50%;display:grid;place-items:center}
+
+/* ---- Tables ---- */
+table{width:100%;border-collapse:collapse;margin:.5em 0 .9em;font-size:.92rem}
+thead th{background:var(--rust);color:var(--parch-hi);font-family:var(--sans);text-transform:uppercase;
+  letter-spacing:.5px;font-size:.72rem;text-align:left;padding:5px 8px}
+tbody td{padding:4px 8px;border-bottom:1px solid rgba(160,136,74,.4);vertical-align:top}
+tbody tr:nth-child(odd){background:var(--table-stripe)}
+
+/* ---- Descriptive / read-aloud box ---- */
+.descriptive{
+  background:linear-gradient(180deg,#f7efd9,#efe4c6);border:1px solid var(--gold-deep);
+  border-radius:8px;padding:14px 18px;margin:.7em 0;font-style:italic;
+  box-shadow:0 1px 4px rgba(80,50,20,.25);break-inside:avoid}
+.descriptive::before{content:"Read aloud";display:block;font-style:normal;font-family:var(--sans);
+  font-size:.66rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold-deep);margin-bottom:5px;font-weight:700}
+
+/* ---- Note box ---- */
+.note{background:var(--note-bg);border:1px solid var(--gold-deep);border-left:5px solid var(--rust-soft);
+  border-radius:5px;padding:10px 14px;margin:.7em 0;break-inside:avoid}
+.note h5{margin:.1em 0 .3em}
+.note p:last-child,.note ul:last-child{margin-bottom:0}
+
+/* ---- Stat block (monster frame) ---- */
+.monster{
+  background:var(--stat-bg);border:1px solid #d9c79a;border-radius:3px;padding:12px 16px 14px;
+  margin:.7em 0;break-inside:avoid;color:var(--rust-soft);
+  box-shadow:0 1px 6px rgba(80,50,20,.3);
+  border-top:4px double var(--rust-soft);border-bottom:4px double var(--rust-soft)}
+.monster h3{color:var(--rust-soft);border-bottom-color:var(--rust-soft);margin-top:0;font-variant:small-caps}
+.monster .creature-type{font-style:italic;font-size:.86rem;margin-bottom:6px}
+.monster .redbar{height:3px;background:var(--rust-soft);
+  border:none;margin:7px 0;clip-path:polygon(0 0,100% 35%,100% 65%,0 100%)}
+.monster .stat-line{font-size:.9rem;margin:2px 0}
+.monster .stat-line b{color:var(--rust)}
+.monster .abilities{display:flex;gap:8px;text-align:center;margin:7px 0;flex-wrap:wrap}
+.monster .abilities .ab{flex:1 1 0;min-width:54px}
+.monster .abilities .ab span{display:block;font-family:var(--sans);font-size:.62rem;text-transform:uppercase;letter-spacing:.5px;color:var(--rust)}
+.monster .abilities .ab b{font-size:1rem;color:var(--rust-soft)}
+.monster .action{margin:.3em 0;font-size:.9rem}
+.monster .action b,.monster .action i{color:var(--rust)}
+
+/* ---- Tags / pills ---- */
+.tag{display:inline-block;font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.5px;
+  text-transform:uppercase;padding:2px 9px;border-radius:999px;border:1px solid var(--gold-deep);
+  background:rgba(192,173,106,.25);color:var(--rust-soft);white-space:nowrap}
+.tag.deadly{background:rgba(122,32,13,.14);border-color:var(--rust-soft);color:var(--rust-soft)}
+.tag.hoard{background:rgba(90,70,140,.14);border-color:#6b5fae;color:#4a3f7a}
+.tag.return{background:rgba(60,110,70,.14);border-color:#4a7a52;color:#34663a}
+
+/* small flow/arrow line */
+.flowline{font-family:var(--sans);font-size:.86rem;letter-spacing:.3px}
+.flowline b{color:var(--rust-soft)}
+
+/* footer */
+.sheet-foot{margin-top:14px;padding-top:8px;border-top:1px solid var(--gold);font-size:.82rem;font-style:italic;color:#6b5a3a}
+
+/* index hub */
+.hub{max-width:820px;margin:0 auto}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+.hub-card{display:block;text-decoration:none;color:var(--ink);background:var(--stat-bg);border:1px solid var(--gold-deep);
+  border-radius:6px;padding:16px 18px;box-shadow:0 2px 8px rgba(0,0,0,.3);transition:transform .12s ease}
+.hub-card:hover{transform:translateY(-3px)}
+.hub-card h3{margin:.1em 0}
+.hub-card .lv{font-family:var(--sans);font-size:.7rem;letter-spacing:1px;text-transform:uppercase;color:var(--gold-deep);font-weight:700}
+
+/* ---- Print ---- */
+@media print{
+  html,body{background:#fff;padding:0}
+  .page{box-shadow:none;margin:0;max-width:none;border-radius:0}
+  .page::after{display:none}
+  @page{size:letter;margin:12mm}
+}

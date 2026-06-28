@@ -37,6 +37,7 @@ python -m http.server 8771      # from this folder, then open:
 | [Tier-3-The-Hoard-Kingdom.md](Tier-3-The-Hoard-Kingdom.md) | **Tier III** (11–16) — Ossuara, Sera's reckoning, the dracolich |
 | [Tier-4-The-Emberthrone.md](Tier-4-The-Emberthrone.md) | **Tier IV** (17–20) — the Choir, the thesis scene, the Becoming God, the endings |
 | [one-sheets/](one-sheets/) | Printable GM run-sheets — one per tier + a boss sheet for Halthurax (all four forms at a glance) |
+| [one-sheets/styled/](one-sheets/styled/index.html) | The same run-sheets in **classic D&D book styling** (Homebrewery/PHB look) — open `index.html` to read or print; editable `.hb.md` Homebrewery sources included |
 | [dm-screen/](dm-screen/) | The interactive DM web app (+ `DESIGN-SYSTEM.md`) |
 
 ## Status — fully runnable, levels 1–20
@@ -44,7 +45,7 @@ python -m http.server 8771      # from this folder, then open:
 - ✅ Session Zero + player reference cards
 - ✅ **All four tiers** built out (Marrowmoor · Verdant Pyre · Hoard-Kingdom · Emberthrone)
 - ✅ Magic-item & encounter tables for every tier
-- ✅ Printable GM one-sheets (4 tiers + boss run-sheet)
+- ✅ Printable GM one-sheets (4 tiers + boss run-sheet) — plain + classic-D&D styled
 - ✅ Interactive DM web app with custom icons
 
 ## System

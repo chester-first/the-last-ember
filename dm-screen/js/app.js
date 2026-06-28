@@ -102,8 +102,10 @@ function renderOverview(){
     </div>
 
     <h2 class="section">GM one-sheets <span class="muted" style="font-size:.6em">— print & run</span></h2>
+    <div class="threshold warn" style="margin-bottom:var(--s3)">${ic("ic-overview")} <b>Styled, print-ready versions</b> (classic D&D book look) →
+      <a href="../one-sheets/styled/index.html" target="_blank" rel="noopener">open the one-sheet hub</a></div>
     <div class="grid cols-3">
-      ${(C.meta.oneSheets||[]).map(s=>`<a class="card" style="display:block" href="../${encodeURI(s.file)}" target="_blank" rel="noopener">${ic("ic-overview")} ${esc(s.label)}<br><small class="muted">one-sheet</small></a>`).join("")}
+      ${(C.meta.oneSheets||[]).map(s=>`<a class="card" style="display:block" href="../${encodeURI(s.file)}" target="_blank" rel="noopener">${ic("ic-overview")} ${esc(s.label)}<br><small class="muted">raw markdown</small></a>`).join("")}
     </div>
 
     <h2 class="section">Live campaign state</h2>
@@ -133,7 +135,8 @@ function renderTier(t){
       <p style="margin-top:var(--s2)">${esc(t.summary)}</p>
       <div class="threshold warn" style="margin-top:var(--s2)">${ic("ic-item")} ${esc(t.milestone)}</div>
       <div style="display:flex;gap:var(--s2);flex-wrap:wrap;margin-top:var(--s3)">
-        ${t.oneSheet?`<a class="btn primary" href="../${encodeURI(t.oneSheet)}" target="_blank" rel="noopener">${ic("ic-overview")} GM One-Sheet</a>`:""}
+        <a class="btn primary" href="../one-sheets/styled/${t.id.replace('t','Tier-')}.html" target="_blank" rel="noopener">${ic("ic-overview")} Styled one-sheet</a>
+        ${t.oneSheet?`<a class="btn" href="../${encodeURI(t.oneSheet)}" target="_blank" rel="noopener">${ic("ic-overview")} Raw one-sheet</a>`:""}
         <a class="btn" href="../${encodeURI(t.file)}" target="_blank" rel="noopener">${ic("ic-overview")} Full Tier ${t.n} writeup</a>
       </div>
     </div>
@@ -295,8 +298,8 @@ function rerenderInit(){ if(state.view==="initiative"){ $("#view .stack").innerH
 /* ---------- Villain ---------- */
 function renderVillain(){
   return `<p class="lead">A fallen gold dragon who decided death is the enemy. He doesn't gloat — he grieves. He grows because every "kill" frees part of his hoard and he reconstitutes around what's left.</p>
-    <div class="threshold warn" style="margin-bottom:var(--s4)">${ic("ic-dragon")} <b>Run-at-a-glance:</b> the universal Hoard-Phylactery rule, all four forms, phase triggers, and the capstone counters live on the printable
-      <a href="../${encodeURI(C.meta.bossSheet)}" target="_blank" rel="noopener">Boss One-Sheet →</a></div>
+    <div class="threshold warn" style="margin-bottom:var(--s4)">${ic("ic-dragon")} <b>Run-at-a-glance:</b> the universal Hoard-Phylactery rule, all four forms, phase triggers, and the capstone counters live on the printable boss sheet —
+      <a href="../one-sheets/styled/Boss.html" target="_blank" rel="noopener">styled</a> · <a href="../${encodeURI(C.meta.bossSheet)}" target="_blank" rel="noopener">raw</a></div>
     ${C.villain.map(statBlock).join("")}`;
 }
 function statBlock(f){
