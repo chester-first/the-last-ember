@@ -261,6 +261,26 @@ tr:hover td{background:rgba(255,255,255,.02)}
 .dice-log{font-size:var(--fs-xs);color:var(--muted);max-height:84px;overflow-y:auto}
 .dice-log div{padding:2px 0;border-bottom:1px solid var(--line)}
 
+/* ---- Forge-your-own legacy item ---- */
+.card.forge{border-left:3px solid var(--ember-500)}
+.forge-field{display:flex;flex-direction:column;gap:4px;margin:var(--s3) 0}
+.forge-field>span{font-size:var(--fs-sm);color:var(--gold-300)}
+.forge-field input,.forge-field textarea{background:var(--ash-800);border:1px solid var(--line);border-radius:var(--r-sm);
+  color:var(--text);padding:8px 10px;font-size:var(--fs-sm);font-family:var(--font-body);width:100%;resize:vertical}
+.forge-field input:focus,.forge-field textarea:focus{outline:none;border-color:var(--ember-500);box-shadow:0 0 0 2px var(--accent-soft)}
+.forge-field small{font-style:italic}
+
+/* ---- Print ---- */
+@media print{
+  body{background:#fff;color:#111}
+  .sidebar,.topbar,.dice-tray,#addForge,[data-forge-del],.enc-row .btn{display:none!important}
+  .app{display:block;height:auto}
+  .main,.view{overflow:visible;height:auto}
+  .card,.statblock,.forge-field input,.forge-field textarea{border-color:#999;color:#111;background:#fff}
+  .forge-field small,.muted{color:#444!important}
+  h2.section,h3.sub,.brand-text strong,.clock-val{color:#111}
+}
+
 /* empty state */
 .empty{text-align:center;color:var(--muted);padding:var(--s7) var(--s4)}
 .empty .ic{width:48px;height:48px;color:var(--ash-500);margin-bottom:var(--s3)}

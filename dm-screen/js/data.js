@@ -269,5 +269,25 @@ window.CAMPAIGN = {
     {m:"Blazing", lvl:11, when:"start of Tier III"},
     {m:"Radiant", lvl:17, when:"start of Tier IV"},
     {m:"True Ember", lvl:"cap", when:"the finale — survivors only"}
-  ]
+  ],
+
+  /* ---- Forge-your-own legacy item template ---- */
+  legacyTemplate:{
+    intro:"Build a PC's OWN bonded item instead of taking a preset. Pick anything that matters to the character — a weapon, focus, shield, instrument, heirloom. Fill the boxes; the Example line on each milestone shows the power budget so a homemade item stays balanced with the six ready-made themes. Everything you type is saved in this browser and prints (File ▸ Print).",
+    budget:"Power budget per milestone — Kindled: a minor signature trick (no bonus) · Burning: +1 and one short-rest power · Blazing: +2, a strong active, and a passive · Radiant: +3, a 1/day big effect, and a situational immunity · True Ember: a single 1/campaign reality-bender.",
+    fields:[
+      {k:"name",  label:"Item name",                                   ph:"e.g. Hearth-Hammer",                 ex:"“Hearth-Hammer” — my grandfather's smithing maul."},
+      {k:"role",  label:"What it is (type)",                           ph:"e.g. warhammer (martial weapon)",    ex:"a warhammer — martial melee weapon, STR-based."},
+      {k:"origin",label:"Where it came from / who carried it before",  ph:"one line",                           ex:"Passed from my grandfather the village smith, the day he died at the forge."},
+      {k:"meaning",label:"Why bleed a piece of your soul into it",     ph:"one line",                           ex:"It's the only thing of his I have left; if anything's worth my fire, it's this."},
+      {k:"mood",  label:"What it looks like angry / grieving",         ph:"one line",                           ex:"The head glows forge-orange when I'm furious; cold gray when someone I love is hurt."}
+    ],
+    milestones:[
+      {k:"f_kindled", m:"Kindled",    lvl:1,     budget:"a minor signature trick — no bonus yet",            ex:"Sheds dim forge-light 10 ft you control, and deals +1d4 fire on a hit."},
+      {k:"f_burning", m:"Burning",    lvl:5,     budget:"+1, plus one active power (1/short rest)",               ex:"+1. Once per short rest, when a hit drops an undead you return its soul and gain 1d8 temp HP."},
+      {k:"f_blazing", m:"Blazing",    lvl:11,    budget:"+2, a strong active, and a passive",                    ex:"+2. On a crit, +3d6 fire and the target can't regain HP until your next turn; advantage on saves vs. fear."},
+      {k:"f_radiant", m:"Radiant",    lvl:17,    budget:"+3, a 1/day big effect, and a situational immunity",    ex:"+3. 1/day your next hit deals +8d6 radiant and blinds (DC 18 Con); immune to necrotic while below half HP."},
+      {k:"f_capstone",m:"True Ember", lvl:"cap", budget:"a single 1/campaign reality-bending act",               ex:"1/campaign, when an ally dies within 30 ft, catch their soul — they return at 1 HP."}
+    ]
+  }
 };

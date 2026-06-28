@@ -46,6 +46,54 @@ every item roughly the same budget.
 | Radiant (17) | +3 item + a once/day big effect + situational immunity | +3 |
 | True Ember (cap) | legendary capstone; a 1/campaign reality-bending act | +3 |
 
+### Blank template — forge your own
+Print this (or use the interactive version on the DM app's **Legacy Items** page, which saves
+and prints). Fill the boxes; the **Example:** under each milestone shows the power budget so a
+homemade item stays balanced with the six themes below. *(The examples use a weapon; any item
+type works.)*
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│  FORGE YOUR OWN EMBER-FORGED ITEM                                            │
+│                                                                             │
+│  Item name: ______________________________________________________________ │
+│     Example: "Hearth-Hammer" — my grandfather's smithing maul.              │
+│  What it is (type): ______________________________________________________  │
+│     Example: a warhammer — martial melee weapon, STR-based.                 │
+│  Where it came from / who carried it: ____________________________________  │
+│     Example: passed from my grandfather the smith, the day he died forging. │
+│  Why bleed a piece of your soul into it: _________________________________  │
+│     Example: it's the only thing of his I have left.                        │
+│  What it looks like angry / grieving: ____________________________________  │
+│     Example: head glows forge-orange in fury; cold gray when a loved one's hurt. │
+├────────────────────────────────────────────────────────────────────────────┤
+│  MILESTONE POWERS — write each as it unlocks                                │
+│                                                                             │
+│  ◇ KINDLED (lvl 1) — a minor signature trick, no bonus                      │
+│     ______________________________________________________________________  │
+│     Example: sheds 10 ft of forge-light; +1d4 fire on a hit.                │
+│  ◇ BURNING (lvl 5) — +1, plus one short-rest power                          │
+│     ______________________________________________________________________  │
+│     Example: +1; 1/short rest, dropping an undead returns its soul & heals 1d8.│
+│  ◇ BLAZING (lvl 11) — +2, a strong active, and a passive                    │
+│     ______________________________________________________________________  │
+│     Example: +2; crit → +3d6 fire & target can't heal until your next turn;  │
+│              advantage on saves vs. fear.                                    │
+│  ◇ RADIANT (lvl 17) — +3, a 1/day big effect, and a situational immunity    │
+│     ______________________________________________________________________  │
+│     Example: +3; 1/day +8d6 radiant & blind (DC 18 Con); necrotic immunity   │
+│              while below half HP.                                            │
+│  ◇ TRUE EMBER (capstone) — a single 1/campaign reality-bender               │
+│     ______________________________________________________________________  │
+│     Example: 1/campaign, when an ally dies within 30 ft, catch their soul —  │
+│              they return at 1 HP.                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+> **Don't forget the dark mirror.** A custom item still gets the **Hoarding temptation** at each
+> milestone (see the end of this doc) — the option to wake a power early/stronger by feeding it a
+> *stolen* soul, at the cost of the Court meter and the Ember Clock.
+
 ### Six ready-made themes (one per common PC archetype)
 
 **1. The Pyre-Blade (martial weapon).**

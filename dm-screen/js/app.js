@@ -17,7 +17,7 @@ const uid = ()=>Math.random().toString(36).slice(2,9);
 function defaultState(){
   const clocks={};
   C.clocks.forEach(cl=>clocks[cl.id]=cl.start);
-  return {view:"overview", clocks, init:{round:1, turn:0, list:[]}, diceLog:[]};
+  return {view:"overview", clocks, init:{round:1, turn:0, list:[]}, diceLog:[], customItems:[]};
 }
 let state;
 function load(){
@@ -27,6 +27,7 @@ function load(){
   state.clocks = state.clocks||{}; C.clocks.forEach(cl=>{ if(state.clocks[cl.id]==null) state.clocks[cl.id]=cl.start; });
   state.init = state.init||{round:1,turn:0,list:[]};
   state.diceLog = state.diceLog||[];
+  state.customItems = state.customItems||[];
   return state;
 }
 let saveTimer;
@@ -335,8 +336,35 @@ function renderItems(){
           <tr><th>True Ember</th><td><span class="badge gold">capstone</span> ${esc(it.cap)}</td></tr>
         </table>
       </div>`).join("")}
-    <p class="muted">Full build framework & the dark-mirror "Hoarding temptation": <a href="../Appendix-B-Legacy-Items.md" target="_blank" rel="noopener">Appendix-B-Legacy-Items.md</a></p>`;
+    <p class="muted">Full build framework & the dark-mirror "Hoarding temptation": <a href="../Appendix-B-Legacy-Items.md" target="_blank" rel="noopener">Appendix-B-Legacy-Items.md</a></p>
+
+    <h2 class="section">Forge your own <span class="muted" style="font-size:.6em">— fill, save, print</span></h2>
+    <p>${esc(C.legacyTemplate.intro)}</p>
+    <div class="threshold warn">${ic("ic-item")} ${esc(C.legacyTemplate.budget)}</div>
+    <div id="forgeList">${state.customItems.map(forgeCard).join("")}</div>
+    <button class="btn primary" id="addForge" style="margin-top:var(--s2)">${ic("ic-plus")} New custom item</button>`;
 }
+function forgeCard(item){
+  const T=C.legacyTemplate;
+  return `<div class="card forge" data-fid="${item.id}">
+    <div class="clock-head">${ic("ic-item")}<h3 style="margin:0;flex:1">${esc(item.name||"Untitled item")}</h3>
+      <button class="icon-btn sm" data-forge-del="${item.id}" title="Remove">${ic("ic-x")}</button></div>
+    ${T.fields.map(f=>`
+      <label class="forge-field">
+        <span>${esc(f.label)}</span>
+        <input data-forge="${item.id}" data-key="${f.k}" value="${esc(item[f.k]||"")}" placeholder="${esc(f.ph)}"/>
+        <small class="muted">Example: ${esc(f.ex)}</small>
+      </label>`).join("")}
+    <div class="sb-section-label">Milestone powers — write each as it unlocks</div>
+    ${T.milestones.map(m=>`
+      <label class="forge-field">
+        <span>${esc(m.m)} <small class="muted">(lvl ${esc(m.lvl)} · ${esc(m.budget)})</small></span>
+        <textarea data-forge="${item.id}" data-key="${m.k}" rows="2" placeholder="Write this tier's power…">${esc(item[m.k]||"")}</textarea>
+        <small class="muted">Example: ${esc(m.ex)}</small>
+      </label>`).join("")}
+  </div>`;
+}
+function rerenderItems(){ if(state.view==="items"){ $("#view .stack").innerHTML=renderItems(); wireView(); } }
 
 /* ---------- Loot ---------- */
 function renderLoot(){
@@ -382,6 +410,13 @@ function wireView(){
     const [n,hp,ac]=b.dataset.addBest.split("|");
     addCombatant({name:n,init:0,hp:+hp,ac:+ac,side:"foe"}); save(); toast("Added "+n+".");
   });
+
+  // forge-your-own legacy items
+  const af=$("#addForge",root); if(af) af.onclick=()=>{ state.customItems.push({id:uid()}); save(); rerenderItems(); };
+  $$("[data-forge-del]",root).forEach(b=>b.onclick=()=>{ state.customItems=state.customItems.filter(x=>x.id!==b.dataset.forgeDel); save(); rerenderItems(); });
+  $$("[data-forge]",root).forEach(inp=>inp.addEventListener("input",()=>{
+    const it=state.customItems.find(x=>x.id===inp.dataset.forge); if(it){ it[inp.dataset.key]=inp.value; save(); }
+  }));
 
   // clocks
   $$("[data-set]",root).forEach(p=>p.onclick=()=>setClock(p.dataset.clock, +p.dataset.set));
