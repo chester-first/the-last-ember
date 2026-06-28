@@ -186,7 +186,8 @@ window.CAMPAIGN = {
         {n:"Graying Breath (Recharge 5–6)",t:"60-ft cone, DC 17 Con, 10d8 necrotic (half on save); failed save also reduces hit point maximum by that amount until a long rest. Withers fey light. Relit Pyre-Founts grant advantage vs. this."},
         {n:"Multiattack",t:"Bite (+10, 2d10+6 piercing +3d6 necrotic) and 2 Claws (+10, 2d6+6 slashing)."}
       ],
-      legendary:["Detect","Tail Attack (+10, 2d8+6)","Wing of Ash (DC 16 Str or prone in gray fog; costs 2)"],
+      legendary:["Ashen Gaze (1) — DC 16 Wis or disadvantage on its next attack; can't be surprised by that creature.","Cinder Lash (1) — tail, +10 reach 15 ft, 2d8+6 bludgeoning + 1d6 necrotic; target sheds no light until its next turn.","Wing of Ash (2) — DC 16 Dex, 2d6 + prone; fills a 15-ft radius with gray fog (lightly obscured) until init 20."],
+      lair:["Drown the Light — a relit Pyre-Fount gutters dark unless an adjacent ally spends a reaction; it loses its advantage vs. Graying Breath.","The Graying — 20-ft radius of fey-light withers; Pyre creatures starting there take 1d10 necrotic; ground becomes difficult ashen terrain.","Hollow Bloom — one creature on blighted ground: DC 14 Dex or restrained by ashen vines (DC 14 Str to escape)."],
       tactics:"At the Pyre's Heart, fight while the party tends 3 Pyre-Founts (AC 15, 40 HP). On 0 HP the wraith-form is destroyed; molts into the Dracolich."
     },
     {
@@ -201,8 +202,8 @@ window.CAMPAIGN = {
         {n:"Hoardfire (Recharge 5–6)",t:"90-ft cone, DC 22 Dex, 16d6 necrotic+fire (half on save). A creature dropped to 0 by it is claimed (death-save failures count double until freed)."},
         {n:"Multiattack",t:"Bite (+14, 2d10+8 +4d6 necrotic) and 2 Claws (+14, 2d6+8); or Frightful Presence."}
       ],
-      legendary:["Detect","Tail (+14, 2d8+8)","Call the Grateful Dead (2): a hoarded citizen bodyblocks an attack, negating it"],
-      lair:["Raise 2d6 skeletons from the floor","Bone portcullis seals an exit","20-ft cube of grasping hands: DC 18 Str or restrained"],
+      legendary:["Tally the Hoard (1) — a thousand kept souls whisper; locate every creature in the vault, ignore being unseen until his next turn.","Sovereign's Tail (1) — +14 reach 20 ft, 2d8+8 bludgeoning; grave-cold halves the target's speed until end of its next turn.","Call the Grateful Dead (2) — a beloved citizen of Ossuara throws itself in the way, negating an attack entirely."],
+      lair:["The Floor Remembers — the fused-soul floor births 2d6 skeletons (or 1d4 wights) that act on his initiative.","Portcullis of Ribs — a grate of grinding bone slams across one 10-ft passage (AC 17, 40 HP), splitting the party.","The Loving Dead — grasping hands rise in a 20-ft cube; DC 18 Str or restrained, embraced by the people the party failed to free.","Pyre-Light — if any Soul-Pyre still burns it flares: Halthurax regains 30 HP."],
       tactics:"First form that can be truly hurt — and the first fight where a PC death is EXPECTED. Run it lethal; the Ember Clock should be low. On 0 HP with pyres down, the kingdom shatters; molts toward the Source."
     },
     {
@@ -216,7 +217,8 @@ window.CAMPAIGN = {
         {n:"Phase 2 (120–61)",t:"Sheds the dragon shape: gains 'false dawn' breath (DC 23, 18d6 radiant, blinds on fail) and Unmake (1 creature, DC 23 Con or drop to 0 — a death save, as he tries to 'save' them)."},
         {n:"Phase 3 (60–0)",t:"Pleading and desperate; the thesis scene can interrupt the battle. On Pool 0 AND 0 HP he is finally, permanently slain."}
       ],
-      legendary:["Detect","Tail / Slam","Unmake (Phase 2+)","Chorus (calls the Hoard to defend)"],
+      legendary:["Behold the Door (1) — for an instant he opens into the god he's becoming. DC 23 Wis or take no reactions until the start of its next turn.","Sunlit Slam (1) — a limb of dawn and bone descends. +15 reach 20 ft, 3d10+9 bludgeoning + 2d6 radiant.","Unmake (2, Phase 2+) — 'Let me save you.' DC 23 Con or drop to 0 HP as he folds the target toward the hoard. Countered by Aegis/Pyre-Blade/Soul-Lantern capstones.","Chorus Swell (2) — the Choir sings; advantage on his saves until his next turn and a fallen Choir-anchor reknits with 25 HP."],
+      lair:["False Dawn — counterfeit sunrise blazes. Every non-hoard creature: DC 20 Con, 3d6 radiant (half on save) and blinded until end of its next turn.","Gravity of the Source — the failing flame inhales; each non-flying creature: DC 20 Str or dragged 15 ft toward the Source and knocked prone.","Remembered Grief — the plane shows a creature its worst loss; DC 20 Wis or frightened until init 20.","The Choir Answers — while any Choir-anchor stands, his Hoard Pool regains 10."],
       tactics:"Capstone legacy items (Aegis 'cancel a death', Pyre-Blade 'catch a falling ally', Soul-Lantern 'path to the Source') are built to answer Unmake. Expect a PC to fall — that's who the Source's grace restores."
     }
   ],

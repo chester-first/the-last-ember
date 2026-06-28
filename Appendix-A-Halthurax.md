@@ -42,8 +42,12 @@ triggers Halthurax's first molt.
 - **Soul Siphon (1/turn, free):** when it reduces a creature to 0 HP, Halthurax gains temp
   HP equal to half the creature's level/CR ×5, and that creature's mote is **hoarded** unless
   freed.
-- **Legendary Resistance (2/day)** and **3 legendary actions** (Detect / Tail Attack / Wing
-  of Ash, the last imposing a DC 16 Str save or knocked prone in gray fog).
+- **Legendary Resistance (2/day)** and **3 legendary actions** — **Ashen Gaze** (1; DC 16 Wis
+  or disadvantage on its next attack), **Cinder Lash** (1; tail +10, 2d8+6 + 1d6 necrotic),
+  **Wing of Ash** (2; DC 16 Dex, 2d6 + prone, fills 15 ft with gray fog).
+- **Lair actions (Pyre's Heart, init 20):** *Drown the Light* (gutter a relit fount), *The
+  Graying* (20-ft ash radius, 1d10 necrotic + difficult terrain), *Hollow Bloom* (DC 14 Dex or
+  restrained). Full flavor text on the Boss One-Sheet (`one-sheets/Boss-One-Sheet.md`).
 
 **Tier-II behavior:** First, a **hunt** set-piece at lvl 9 (he stalks, harries, retreats —
 can't be killed yet, it's not time). Then the real fight at the Pyre's Heart, lvl 10. On 0 HP:
@@ -66,10 +70,13 @@ classic dracolich rules), or build off **Ancient Gold Dragon** with these change
 - **Breath — Hoardfire (Recharge 5–6):** 90-ft cone, DC 22 Dex, 16d6 necrotic + fire, half on
   save; a creature reduced to 0 by it is **claimed** (death save failures count double until
   freed).
-- **Lair actions** in Ossuara: raise 2d6 skeletons from the floor; close a portcullis of bone;
-  fill a 20-ft cube with grasping hands (difficult terrain + DC 18 Str or restrained).
-- **3 legendary actions** as Ancient Gold + **Call the Grateful Dead** (2 actions): a hoarded
-  citizen throws itself in front of an attack, negating it.
+- **Lair actions (Ossuara throne-vault, init 20):** **The Floor Remembers** (birth 2d6
+  skeletons / 1d4 wights), **Portcullis of Ribs** (bone grate, AC 17/40 HP, seals a 10-ft
+  passage), **The Loving Dead** (20-ft cube of grasping citizens, DC 18 Str or restrained),
+  **Pyre-Light** (a surviving Soul-Pyre flares → he regains 30 HP).
+- **3 legendary actions** — **Tally the Hoard** (1; locate every creature, ignore unseen),
+  **Sovereign's Tail** (1; +14, 2d8+8, halves the target's speed), **Call the Grateful Dead**
+  (2; a hoarded citizen bodyblocks an attack, negating it).
 
 **Tier-III behavior:** This is the first fight where **PC death is expected** — run it that
 way (the Ember Clock should be low; see death rules). On 0 HP with pyres down: the kingdom
@@ -101,6 +108,15 @@ HP while the Hoard Pool is above 0.**
   fights with everything; on Pool 0 and 0 HP he is **finally, permanently slain**, and the
   embers he hoarded return to the Source (or scatter, depending on the Ember Clock and the
   party's final choices — see endings, §6 of the main doc).
+
+**Legendary actions (3/round):** **Behold the Door** (1; DC 23 Wis or no reactions until its
+next turn), **Sunlit Slam** (1; +15, 3d10+9 bludgeoning + 2d6 radiant), **Unmake** (2, Phase
+2+; DC 23 Con or drop to 0 HP), **Chorus Swell** (2; advantage on saves + reknit a Choir-anchor
+for 25 HP).
+**Lair actions (the Emberthrone, init 20):** **False Dawn** (DC 20 Con, 3d6 radiant + blinded),
+**Gravity of the Source** (DC 20 Str or dragged 15 ft + prone), **Remembered Grief** (DC 20 Wis
+or frightened), **The Choir Answers** (while any anchor stands, Hoard Pool regains 10). Full
+flavor text on `one-sheets/Boss-One-Sheet.md`.
 
 **Tuning note:** at a 20th-level party of 4–5 PCs with capstone legacy items, this is meant to
 be *survivable but lethal* — expect at least one PC to fall. That fallen PC is exactly who the
