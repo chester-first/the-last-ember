@@ -100,6 +100,11 @@ function renderOverview(){
         </div>`).join("")}
     </div>
 
+    <h2 class="section">GM one-sheets <span class="muted" style="font-size:.6em">— print & run</span></h2>
+    <div class="grid cols-3">
+      ${(C.meta.oneSheets||[]).map(s=>`<a class="card" style="display:block" href="../${encodeURI(s.file)}" target="_blank" rel="noopener">${ic("ic-overview")} ${esc(s.label)}<br><small class="muted">one-sheet</small></a>`).join("")}
+    </div>
+
     <h2 class="section">Live campaign state</h2>
     <div class="grid cols-3">
       ${C.clocks.map(cl=>{
@@ -126,7 +131,10 @@ function renderTier(t){
         <div><h3 style="margin:0">${esc(t.plane)} · Levels ${t.levels}</h3></div></div>
       <p style="margin-top:var(--s2)">${esc(t.summary)}</p>
       <div class="threshold warn" style="margin-top:var(--s2)">${ic("ic-item")} ${esc(t.milestone)}</div>
-      <p style="margin-top:var(--s3)"><a href="../${encodeURI(t.file)}" target="_blank" rel="noopener">Open the full Tier ${t.n} writeup →</a></p>
+      <div style="display:flex;gap:var(--s2);flex-wrap:wrap;margin-top:var(--s3)">
+        ${t.oneSheet?`<a class="btn primary" href="../${encodeURI(t.oneSheet)}" target="_blank" rel="noopener">${ic("ic-overview")} GM One-Sheet</a>`:""}
+        <a class="btn" href="../${encodeURI(t.file)}" target="_blank" rel="noopener">${ic("ic-overview")} Full Tier ${t.n} writeup</a>
+      </div>
     </div>
 
     <h2 class="section">Story beats</h2>
@@ -286,6 +294,8 @@ function rerenderInit(){ if(state.view==="initiative"){ $("#view .stack").innerH
 /* ---------- Villain ---------- */
 function renderVillain(){
   return `<p class="lead">A fallen gold dragon who decided death is the enemy. He doesn't gloat — he grieves. He grows because every "kill" frees part of his hoard and he reconstitutes around what's left.</p>
+    <div class="threshold warn" style="margin-bottom:var(--s4)">${ic("ic-dragon")} <b>Run-at-a-glance:</b> the universal Hoard-Phylactery rule, all four forms, phase triggers, and the capstone counters live on the printable
+      <a href="../${encodeURI(C.meta.bossSheet)}" target="_blank" rel="noopener">Boss One-Sheet →</a></div>
     ${C.villain.map(statBlock).join("")}`;
 }
 function statBlock(f){

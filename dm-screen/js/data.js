@@ -16,6 +16,14 @@ window.CAMPAIGN = {
       {label:"Tier II — Verdant Pyre", file:"Tier-2-The-Verdant-Pyre.md"},
       {label:"Tier III — Hoard-Kingdom", file:"Tier-3-The-Hoard-Kingdom.md"},
       {label:"Tier IV — Emberthrone", file:"Tier-4-The-Emberthrone.md"}
+    ],
+    bossSheet:"one-sheets/Boss-One-Sheet.md",
+    oneSheets:[
+      {label:"Tier I — Marrowmoor", file:"one-sheets/Tier-1-One-Sheet.md"},
+      {label:"Tier II — Verdant Pyre", file:"one-sheets/Tier-2-One-Sheet.md"},
+      {label:"Tier III — Hoard-Kingdom", file:"one-sheets/Tier-3-One-Sheet.md"},
+      {label:"Tier IV — Emberthrone", file:"one-sheets/Tier-4-One-Sheet.md"},
+      {label:"Boss — Halthurax (all forms)", file:"one-sheets/Boss-One-Sheet.md"}
     ]
   },
 
@@ -54,7 +62,7 @@ window.CAMPAIGN = {
   tiers:[
     {
       id:"t1", n:"I", name:"The Marrowmoor", plane:"Material Plane", levels:"1–4",
-      icon:"ic-material", glow:"#d4622a", file:"Tier-1-The-Marrowmoor.md",
+      icon:"ic-material", glow:"#d4622a", file:"Tier-1-The-Marrowmoor.md", oneSheet:"one-sheets/Tier-1-One-Sheet.md",
       summary:"A fog-bound borderland where the dead walk home. The party stops the Herald's anchoring rite, frees the revenant Sera, and glimpses Halthurax alive.",
       beats:[
         {t:"Lantern's Rest", d:"Town hub. Warden Greel teaches the Ember; first Court-meter swings."},
@@ -71,7 +79,7 @@ window.CAMPAIGN = {
     },
     {
       id:"t2", n:"II", name:"The Verdant Pyre", plane:"Feywild", levels:"5–10",
-      icon:"ic-feywild", glow:"#5ec6a0", file:"Tier-2-The-Verdant-Pyre.md",
+      icon:"ic-feywild", glow:"#5ec6a0", file:"Tier-2-The-Verdant-Pyre.md", oneSheet:"one-sheets/Tier-2-One-Sheet.md",
       summary:"The Feywild's soul-light is graying. Halthurax (Dragon-Wraith) blights the wellspring. The faction tier: the Court of First Light splits and the party tips it.",
       beats:[
         {t:"Glimmermarch", d:"Fey hub in the Hearthtree. Meet Aurene (Keepers) & Vol (Tallymasters)."},
@@ -88,7 +96,7 @@ window.CAMPAIGN = {
     },
     {
       id:"t3", n:"III", name:"The Hoard-Kingdom", plane:"Shadowfell", levels:"11–16",
-      icon:"ic-shadowfell", glow:"#7c6bd6", file:"Tier-3-The-Hoard-Kingdom.md",
+      icon:"ic-shadowfell", glow:"#7c6bd6", file:"Tier-3-The-Hoard-Kingdom.md", oneSheet:"one-sheets/Tier-3-One-Sheet.md",
       summary:"Ossuara — a pleasant city of happy hoarded dead who don't want saving. The horror tier. Sera's reckoning with her old liege. Player death is expected.",
       beats:[
         {t:"Ossuara", d:"City hub of the comfortable dead. 'No one dies here. No one leaves.'"},
@@ -104,7 +112,7 @@ window.CAMPAIGN = {
     },
     {
       id:"t4", n:"IV", name:"The Emberthrone", plane:"The Source", levels:"17–20",
-      icon:"ic-source", glow:"#ffd87a", file:"Tier-4-The-Emberthrone.md",
+      icon:"ic-source", glow:"#ffd87a", file:"Tier-4-The-Emberthrone.md", oneSheet:"one-sheets/Tier-4-One-Sheet.md",
       summary:"The climb to the Source, where Halthurax is building himself into the door every soul must pass. The Choir, the thesis scene, and the Becoming God. Player death is expected; so is grace.",
       beats:[
         {t:"The Ascent / Hollow Heaven", d:"Dungeon-plane of guilt-saves; the Court arrives as army or enemy."},
