@@ -2,27 +2,28 @@
 **The recurring boss, run at a glance.** Full blocks & deltas: [`../Appendix-A-Halthurax.md`](../Appendix-A-Halthurax.md)
 *A fallen gold-dragon guardian who decided death is the enemy. He never gloats — he grieves.*
 
-## ★ THE UNIVERSAL RULE — THE HOARD PHYLACTERY
-His phylactery is the mass of souls he's hoarded across the planes. **While any tier's hoard is unfreed, dropping a form to 0 HP DESTROYS it — it does not kill him.** He molts to the next plane after the tier ends. **Permanent death only in Tier IV, only when the Hoard Pool hits 0.** Every "victory" frees part of the hoard (good for the world) *and* concentrates what's left (worse for you). Sell **hope + dread in the same scene.**
+## The universal rule — the Hoard Phylactery
+His phylactery is the mass of souls he's hoarded across the planes. While any tier's hoard is unfreed, dropping a form to 0 HP DESTROYS that form — it does not kill him. He molts to the next plane after the tier ends. Permanent death only in Tier IV, only when the Hoard Pool hits 0. Every "victory" frees part of the hoard (good for the world) and concentrates what's left (worse for you). Sell hope and dread in the same scene.
 
-## ★ THE FOUR FORMS
+## The four forms
 | Tier | Form | AC | HP | Key threat | Counterplay |
 |---|---|---|---|---|---|
-| I | **Living Wyrm** (CR 17) — *sighting* | 22 | 546 | **Do not fight.** A scene; he warns & leaves. | awe, not initiative |
+| I | **Living Wyrm** (CR 17) — *sighting* | 22 | 546 | Do not fight. A scene; he warns and leaves. | awe, not initiative |
 | I | **The Herald** (CR 3) — his agent | 14 | 78 | Touch of the Hoard (max-HP loss); Gray Sermon | empty R8 Hoard-Cells → no +10/rd regen |
 | II | **Dragon-Wraith** (CR 13) | 18 | 212 | Graying Breath cone (max-HP loss); Soul Siphon | relight 3 Pyre-Founts; protect the fallen |
 | III | **Dracolich** (CR 21) | 20 | 367 | Hoardfire; +30 HP/turn; Call the Grateful Dead | kill the 3 Soul-Pyres (Siege pre-kills some) |
 | IV | **Becoming God** (eff. CR 26) | 22 | 560 | 3 phases; Unmake; Hoard Pool gate | drain Pool 180→0 via anchors/releases/capstones |
 
-## ★ SIGNATURE MECHANICS (the through-line)
+## Signature mechanics (the through-line)
 - **Max-HP reduction** is his fingerprint from Form II on — the Herald introduces it small. Track it; it makes the Ember Clock crisis bite.
 - **He heals unless you deny his hoard.** Form II = founts. Form III = Soul-Pyres. Reward parties who tend objectives over tunnel-DPS.
 - **Form IV is won by emptying the Hoard Pool (180), not HP.** He can't drop below 1 HP while Pool > 0. Anchors ≈20, peaceful releases (DC 20) ≈10, capstone items chunk it.
 
-## ★ LEGENDARY & LAIR ACTIONS — named, run these *(this section spills to a 2nd page; print both)*
+## Legendary & lair actions — named, run these
+*This section spills to a 2nd page; print both.*
 *The Herald (CR 3) and the Living Wyrm sighting have none. The three true forms each get **3 legendary actions** per round, spent at the end of other creatures' turns, and **lair actions on initiative 20**.*
 
-### ◆ FORM II · THE DRAGON-WRAITH
+### Form II — the Dragon-Wraith
 **Legendary**
 - **Ashen Gaze** *(1)* — The hollow sockets fix on a creature within 60 ft and the warmth drains from its nerve. DC 16 Wis save or **disadvantage on its next attack roll**; Halthurax can't be surprised by it.
 - **Cinder Lash** *(1)* — A tail of gray smoke whips out. Melee +10, reach 15 ft, **2d8+6 bludgeoning + 1d6 necrotic**; the ash clings — the target sheds no light until its next turn.
@@ -33,7 +34,7 @@ His phylactery is the mass of souls he's hoarded across the planes. **While any 
 - **The Graying** — A 20-ft radius of living fey-light withers to ash; creatures of the Pyre starting there take **1d10 necrotic** and the ground becomes difficult ashen terrain.
 - **Hollow Bloom** — Gray flowers erupt and clutch; one creature on blighted ground makes a DC 14 Dex save or is **restrained** by ashen vines (DC 14 Str to tear free).
 
-### ◆ FORM III · THE DRACOLICH
+### Form III — the Dracolich
 **Legendary**
 - **Tally the Hoard** *(1)* — A thousand kept souls whisper at once; he learns the location of every creature in the vault and makes a free Perception check. He ignores being unseen until his next turn.
 - **Sovereign's Tail** *(1)* — Melee +14, reach 20 ft, **2d8+8 bludgeoning**; the grave-cold halves the target's speed until the end of its next turn.
@@ -45,7 +46,7 @@ His phylactery is the mass of souls he's hoarded across the planes. **While any 
 - **The Loving Dead** — Grateful hands rise in a 20-ft cube; each creature there makes a DC 18 Str save or is **restrained**, embraced by the people it failed to free.
 - **Pyre-Light** — If any Soul-Pyre still burns, it flares and **Halthurax regains 30 HP** — the regen the party kills the pyres to stop.
 
-### ◆ FORM IV · THE BECOMING GOD *(the Source is his lair)*
+### Form IV — the Becoming God *(the Source is his lair)*
 **Legendary**
 - **Behold the Door** *(1)* — For an instant he opens into the thing he is becoming. One creature within 60 ft: DC 23 Wis or it can **take no reactions** until the start of its next turn, struck dumb by the sight of a god being born.
 - **Sunlit Slam** *(1)* — A limb of dawn and bone descends. Melee +15, reach 20 ft, **3d10+9 bludgeoning + 2d6 radiant**.
@@ -58,18 +59,18 @@ His phylactery is the mass of souls he's hoarded across the planes. **While any 
 - **Remembered Grief** — The plane shows a creature its worst loss made flesh; DC 20 Wis or **frightened** until init 20 (the guilt the Hollow Heaven runs on).
 - **The Choir Answers** — While any Choir-anchor stands, his **Hoard Pool regains 10** — the very clock the party is racing to empty.
 
-## ★ FORM IV PHASE TRIGGERS (finale)
+## Form IV phase triggers (finale)
 - **P1 (Pool 180–121):** Dracolich +50 HP, breath rech 4–6, Choir → advantage on his saves.
 - **P2 (Pool 120–61):** sheds dragon shape → **false-dawn breath** (DC 23, 18d6 radiant, blind) + **Unmake** (1 target, DC 23 Con or drop to 0 — he's "saving" them).
 - **P3 (Pool 60–0):** pleading; the **thesis scene** can interrupt the fight. **Pool 0 AND 0 HP = permanently slain.**
 
-## ★ CAPSTONE ITEMS THAT ANSWER HIM (remind players!)
+## Capstone items that answer him (remind players!)
 - **Wardens' Aegis** — cancel one death, no save (beats Unmake).
 - **Pyre-Blade** — catch a falling ally's soul → back at 1 HP.
 - **Soul-Lantern** — open the path to the Source (restores the permanently-dead).
 - **Gravesong** — Chorus of Release empties anchors fast.
 
-## ★ ROLEPLAY NORTH-STAR
+## Roleplay north-star
 - **He pities you.** Threat = conviction, not malice. He held this duty 1,000 years before you were born.
 - **He offers an off-ramp every tier** — stop, join him, let him save your dead. Some of it is *true.*
 - **His tell that he's wrong:** he can never answer *what a world with no new souls becomes.* Let a clever party corner him on it — that's the dagger that ends him.

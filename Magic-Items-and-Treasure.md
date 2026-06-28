@@ -1,27 +1,31 @@
 # MAGIC ITEMS & TREASURE
 ### The Last Ember — per-tier loot tables (D&D 5e 2014)
 
-This file covers **found treasure** — the magic items the party loots, buys, or is gifted across
-the campaign. The party's **bonded legacy items** are a separate subsystem in
-`Appendix-B-Legacy-Items.md`; these are everything *else.*
+This file covers found treasure: the magic items the party loots, buys, or is gifted across the
+campaign. The party's bonded legacy items are a separate subsystem in
+`Appendix-B-Legacy-Items.md`, and these are everything else.
 
-Every item here is **theme-tied to the Ember cosmology** (soul-fire, return, hoarding, the
-Dimming) so loot reinforces the story instead of feeling generic. Rarity follows tier; each table
-gives **signature items** (named, story-bearing) and a **roll table** for quick generic drops.
+Every item here is theme-tied to the Ember cosmology — soul-fire, return, hoarding, and the
+Dimming — so that loot reinforces the story instead of feeling generic. Rarity follows tier, and
+each table gives both signature items (named and story-bearing) and a roll table for quick
+generic drops.
 
-**Attunement note:** found items count against the normal 3-attunement limit. Legacy items do not.
+Attunement note: found items count against the normal 3-attunement limit, but legacy items do
+not.
 
 ---
 
 ## How to use these tables
 
-- **Pace:** roughly **1 signature item per major beat** + 1–2 generic drops per tier. Don't
-  flood — legacy items carry the power curve; found items add flavor and options.
-- **The Return tag:** items marked **⟲ Return** interact with the campaign's core mechanic —
-  they let a PC return a soul, slow the Ember Clock, or resist the Dimming. Hand these to players
-  who lean into mercy.
-- **The Hoard tag:** items marked **◈ Hoard** are powerful but *built from stolen souls* —
-  using them ticks the Court meter toward Tallymasters and the Ember Clock down. Temptation loot.
+- Pace: aim for roughly one signature item per major beat, plus one or two generic drops per
+  tier. Don't flood the party — legacy items carry the power curve, while found items add flavor
+  and options.
+- The Return tag: items marked ⟲ Return interact with the campaign's core mechanic, letting a PC
+  return a soul, slow the Ember Clock, or resist the Dimming. Hand these to players who lean
+  toward mercy.
+- The Hoard tag: items marked ◈ Hoard are powerful, but they're built from stolen souls, so using
+  them ticks the Court meter toward the Tallymasters and the Ember Clock downward. This is
+  temptation loot.
 
 ---
 
@@ -127,23 +131,25 @@ gives **signature items** (named, story-bearing) and a **roll table** for quick 
 
 ## Treasure hoards (gold & valuables)
 
-Use the DMG hoard tables by tier, reskinned to setting:
-- **Tier I:** barrow-goods — grave-silver, Warden tokens, old coin. ~Hoard CR 0–4.
-- **Tier II:** fey-treasure — light-glass, frozen music, petals that don't wilt. ~CR 5–10. (Fey
-  payment is often *favors and secrets,* not coin — lean into it.)
-- **Tier III:** the dead don't trade in gold — Ossuara wealth is **hoarded memories, names, and
-  years.** Reskin currency as soul-tokens the party can spend on info, passage, or (darkly) power.
-  ~CR 11–16.
-- **Tier IV:** there is no spending the Source. Reward is **the ending you earn** and the
-  capstone items. Material wealth is meaningless here; say so.
+Use the DMG hoard tables by tier, reskinned to the setting.
+
+- Tier I: barrow-goods, such as grave-silver, Warden tokens, and old coin. Roughly Hoard CR 0–4.
+- Tier II: fey-treasure, such as light-glass, frozen music, and petals that don't wilt. Roughly
+  CR 5–10. Fey payment often comes as favors and secrets rather than coin, so make the most of
+  that.
+- Tier III: the dead don't trade in gold, so Ossuara wealth is hoarded memories, names, and
+  years. Reskin the currency as soul-tokens the party can spend on information, passage, or, more
+  darkly, power. Roughly CR 11–16.
+- Tier IV: there is no spending the Source. The reward is the ending you earn and the capstone
+  items. Material wealth is meaningless here, and you should say so plainly.
 
 ---
 
 ## GM guidance
 
-- **Loot should argue with the players.** The ◈ Hoard items are *better* than the ⟲ Return
-  items, on purpose — the campaign keeps offering the easy, costly path. Track who reaches for what.
-- **Don't let found items outshine legacy items.** Legacy items are the emotional core; found
+- Loot should argue with the players. The ◈ Hoard items are deliberately better than the ⟲ Return
+  items, because the campaign keeps offering the easy, costly path. Track who reaches for what.
+- Don't let found items outshine legacy items. Legacy items are the emotional core, while found
   loot is options and flavor. If a found item would eclipse a PC's bonded item, downgrade it.
-- **The Ember Clock is your loot governor.** Every ◈ Hoard use and every *Raise Dead* scroll is a
-  withdrawal. Narrate the Clock dropping so players feel their treasure's true cost.
+- The Ember Clock is your loot governor. Every ◈ Hoard use and every Raise Dead scroll is a
+  withdrawal, so narrate the Clock dropping and let the players feel their treasure's true cost.

@@ -17,7 +17,7 @@ const uid = ()=>Math.random().toString(36).slice(2,9);
 function defaultState(){
   const clocks={};
   C.clocks.forEach(cl=>clocks[cl.id]=cl.start);
-  return {view:"overview", clocks, init:{round:1, turn:0, list:[]}, diceLog:[], customItems:[]};
+  return {view:"overview", clocks, init:{round:1, turn:0, list:[]}, customItems:[]};
 }
 let state;
 function load(){
@@ -26,7 +26,6 @@ function load(){
   // migrate missing keys
   state.clocks = state.clocks||{}; C.clocks.forEach(cl=>{ if(state.clocks[cl.id]==null) state.clocks[cl.id]=cl.start; });
   state.init = state.init||{round:1,turn:0,list:[]};
-  state.diceLog = state.diceLog||[];
   state.customItems = state.customItems||[];
   return state;
 }

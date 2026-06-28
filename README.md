@@ -14,7 +14,7 @@ proving him wrong — or, by accident, proving him right.
 
 > **New here? Open [START-HERE.md](START-HERE.md)** — the file map and the 3-step "how to begin."
 
-## 🎲 The DM web app
+## The DM web app
 A self-contained, offline **DM screen** lives in [`dm-screen/`](dm-screen/) — interactive
 campaign clocks, an initiative tracker you can load encounters straight into, all four villain
 forms as stat blocks, and a custom "Emberlight" icon set. No build, no dependencies.

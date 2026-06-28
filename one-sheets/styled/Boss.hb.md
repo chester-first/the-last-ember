@@ -7,11 +7,11 @@
 A fallen gold-dragon guardian who decided death is the enemy, Halthurax stalks all four tiers as one foe wearing many bodies — a living wyrm, a wraith, a dracolich, and a god being born. He pities the party and offers an off-ramp every tier; every "victory" frees part of his hoarded souls and concentrates what remains. Run hope and dread in the same scene. *Full blocks & deltas: [Appendix-A-Halthurax.md](../../Appendix-A-Halthurax.md).*
 
 {{note
-##### ★ The Universal Rule — The Hoard Phylactery
+##### The Universal Rule — The Hoard Phylactery
 His phylactery is the mass of souls he's hoarded across the planes. **While any tier's hoard is unfreed, dropping a form to 0 HP DESTROYS it — it does not kill him.** He molts to the next plane after the tier ends. **Permanent death only in Tier IV, only when the Hoard Pool hits 0.** Every "victory" frees part of the hoard (good for the world) *and* concentrates what's left (worse for you). Sell **hope + dread in the same scene.**
 }}
 
-## ★ The Four Forms
+## The Four Forms
 | Tier | Form | AC | HP | Key threat | Counterplay |
 |:--|:--|:--|:--|:--|:--|
 | I | **Living Wyrm** (CR 17) — *sighting* | 22 | 546 | **Do not fight.** A scene; he warns & leaves. | awe, not initiative |
@@ -20,7 +20,7 @@ His phylactery is the mass of souls he's hoarded across the planes. **While any 
 | III | **Dracolich** (CR 21) | 20 | 367 | Hoardfire; +30 HP/turn; Call the Grateful Dead | kill the 3 Soul-Pyres (Siege pre-kills some) |
 | IV | **Becoming God** (eff. CR 26) | 22 | 560 | 3 phases; Unmake; Hoard Pool gate | drain Pool 180→0 via anchors/releases/capstones |
 
-## ★ Signature Mechanics
+## Signature Mechanics
 - **Max-HP reduction** is his fingerprint from Form II on — the Herald introduces it small. Track it; it makes the Ember Clock crisis bite.
 - **He heals unless you deny his hoard.** Form II = founts. Form III = Soul-Pyres. Reward parties who tend objectives over tunnel-DPS.
 - **Form IV is won by emptying the Hoard Pool (180), not HP.** He can't drop below 1 HP while Pool > 0. Anchors ≈20, peaceful releases (DC 20) ≈10, capstone items chunk it.
@@ -31,7 +31,7 @@ The Herald (CR 3) and the Living Wyrm sighting have none. The three true forms e
 }}
 
 {{monster,frame
-## ◆ Form II · The Dragon-Wraith
+## Form II · The Dragon-Wraith
 *Tier II combat form — CR 13*
 ___
 **Armor Class** :: 18
@@ -55,7 +55,7 @@ ___
 }}
 
 {{monster,frame
-## ◆ Form III · The Dracolich
+## Form III · The Dracolich
 *Tier III combat form — CR 21*
 ___
 **Armor Class** :: 20
@@ -83,7 +83,7 @@ ___
 \page
 
 {{monster,frame
-## ◆ Form IV · The Becoming God
+## Form IV · The Becoming God
 *Tier IV combat form — eff. CR 26 — the Source is his lair*
 ___
 **Armor Class** :: 22
@@ -110,13 +110,13 @@ ___
 ***The Choir Answers.*** While any Choir-anchor stands, his **Hoard Pool regains 10** — the very clock the party is racing to empty.
 }}
 
-## ★ Form IV Phase Triggers
+## Form IV Phase Triggers
 - **P1 (Pool 180–121):** Dracolich +50 HP, breath rech 4–6, Choir → advantage on his saves.
 - **P2 (Pool 120–61):** sheds dragon shape → **false-dawn breath** (DC 23, 18d6 radiant, blind) + **Unmake** (1 target, DC 23 Con or drop to 0 — he's "saving" them).
 - **P3 (Pool 60–0):** pleading; the **thesis scene** can interrupt the fight. **Pool 0 AND 0 HP = permanently slain.**
 
 {{note
-##### ★ Capstone Items That Answer Him (remind players!)
+##### Capstone Items That Answer Him (remind players!)
 - **Wardens' Aegis** — cancel one death, no save (beats Unmake).
 - **Pyre-Blade** — catch a falling ally's soul → back at 1 HP.
 - **Soul-Lantern** — open the path to the Source (restores the permanently-dead).
@@ -124,7 +124,7 @@ ___
 }}
 
 {{note
-##### ★ Roleplay North-Star
+##### Roleplay North-Star
 - **He pities you.** Threat = conviction, not malice. He held this duty 1,000 years before you were born.
 - **He offers an off-ramp every tier** — stop, join him, let him save your dead. Some of it is *true.*
 - **His tell that he's wrong:** he can never answer *what a world with no new souls becomes.* Let a clever party corner him on it — that's the dagger that ends him.

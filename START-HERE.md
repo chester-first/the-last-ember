@@ -45,7 +45,7 @@ the-last-ember/
 ├─ README.md                     overview + status + how-to
 │
 ├─ THE CAMPAIGN (read these)
-│  ├─ The-Last-Ember.md          ★ master path: cosmology, structure, the 3 conflicts,
+│  ├─ The-Last-Ember.md          master path: cosmology, structure, the 3 conflicts,
 │  │                                the death system, the endings
 │  ├─ Tier-1-The-Marrowmoor.md   Tier I  (lvl 1–4, Material Plane) — keyed dungeon, fully runnable
 │  ├─ Tier-2-The-Verdant-Pyre.md Tier II (lvl 5–10, Feywild) — the faction tier
@@ -58,12 +58,12 @@ the-last-ember/
 │  └─ Magic-Items-and-Treasure.md per-tier loot tables (Return ⟲ / Hoard ◈ tags)
 │
 ├─ AT THE TABLE
-│  ├─ Session-Zero-Kit.md        ★ run this first — GM runsheet + player handout
+│  ├─ Session-Zero-Kit.md        run this first — GM runsheet + player handout
 │  ├─ Reference-Card-Items-and-Ember.md  printable player cards (item + Ember Clock)
 │  └─ one-sheets/
 │     ├─ Tier-1..4-One-Sheet.md  raw GM run-sheets (plain markdown)
 │     ├─ Boss-One-Sheet.md        Halthurax run-at-a-glance (all forms)
-│     └─ styled/                  ★ the same sheets in classic D&D book styling
+│     └─ styled/                  the same sheets in classic D&D book styling
 │        ├─ index.html            open this — hub to all 5 styled, print-ready sheets
 │        ├─ Tier-1..4.html, Boss.html   offline-readable styled sheets
 │        ├─ *.hb.md               Homebrewery V3 sources (paste into homebrewery.naturalcrit.com)
@@ -71,7 +71,7 @@ the-last-ember/
 │
 └─ THE DM APP
    └─ dm-screen/
-      ├─ index.html               ★ open this — the interactive DM screen
+      ├─ index.html               open this — the interactive DM screen
       ├─ css/styles.css           the "Emberlight" app theme
       ├─ js/data.js               all campaign data (edit here to tweak content)
       ├─ js/app.js                the app logic (clocks, initiative, dice, search, item forge)
@@ -79,7 +79,7 @@ the-last-ember/
       └─ README.md                how to run / customize the app
 ```
 
-★ = the files to touch first.
+The files to open first are the ones listed in the reading order in section 1 above.
 
 ---
 
