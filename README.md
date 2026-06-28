@@ -12,6 +12,8 @@ death is the enemy and begun *hoarding* souls instead of letting them return. Th
 quietly running out of life to be born. The party spends twenty levels and four planes
 proving him wrong — or, by accident, proving him right.
 
+> **New here? Open [START-HERE.md](START-HERE.md)** — the file map and the 3-step "how to begin."
+
 ## 🎲 The DM web app
 A self-contained, offline **DM screen** lives in [`dm-screen/`](dm-screen/) — interactive
 campaign clocks, an initiative tracker you can load encounters straight into, all four villain
